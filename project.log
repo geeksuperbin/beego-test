@@ -103,3 +103,21 @@
 2022/03/27 21:01:06.049  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    486.491µs|   match|[97;44m GET     [0m /subject   r:/subject
 2022/03/27 21:01:14.265  [I] [subject.go:23]  0
 2022/03/27 21:01:14.266  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    997.857µs|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 21:01:41.984  [I] [main.go:19]  hello beego
+2022/03/27 21:01:41.993  [I] [parser.go:85]  /Users/liubin/Music/develop/beego/hello/controllers no changed
+2022/03/27 21:01:41.993  [I] [server.go:241]  http server Running on http://:8080
+2022/03/27 21:01:43.205  [I] [main.go:19]  hello beego
+2022/03/27 21:01:43.214  [I] [parser.go:85]  /Users/liubin/Music/develop/beego/hello/controllers no changed
+2022/03/27 21:01:43.214  [I] [server.go:241]  http server Running on http://:8080
+2022/03/27 21:01:44.424  [I] [main.go:19]  hello beego
+2022/03/27 21:01:44.433  [I] [parser.go:85]  /Users/liubin/Music/develop/beego/hello/controllers no changed
+2022/03/27 21:01:44.433  [I] [server.go:241]  http server Running on http://:8080
+2022/03/27 21:01:45.603  [I] [main.go:19]  hello beego
+2022/03/27 21:01:45.612  [I] [parser.go:85]  /Users/liubin/Music/develop/beego/hello/controllers no changed
+2022/03/27 21:01:45.612  [I] [server.go:241]  http server Running on http://:8080
+2022/03/27 21:01:46.845  [I] [main.go:19]  hello beego
+2022/03/27 21:01:46.855  [I] [parser.go:85]  /Users/liubin/Music/develop/beego/hello/controllers no changed
+2022/03/27 21:01:46.856  [I] [server.go:241]  http server Running on http://:8080
+2022/03/27 21:01:48.049  [I] [main.go:19]  hello beego
+2022/03/27 21:01:48.055  [I] [parser.go:85]  /Users/liubin/Music/develop/beego/hello/controllers no changed
+2022/03/27 21:01:48.055  [I] [server.go:241]  http server Running on http://:8080
