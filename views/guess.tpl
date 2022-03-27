@@ -79,12 +79,12 @@
       {{if .Right}}
           <img src="http://localhost:8080/static/img/c1.jpeg" width=320px>
           <div>
-              <button class="next" onclick="location.href='http://localhost:8080/subject?id={{.Next}}'" type="button">下一个</button>
+              <button class="next" onclick="location.href='http://localhost:18899/subject?id={{.Next}}'" type="button">下一个</button>
           </div>
       {{else}}
           <img src="http://localhost:8080/static/img/o1.jpeg" width=320px>
           <div>
-              <button class="next" onclick="location.href='http://localhost:8080/subject?id={{.ID}}'" type="button">再试一次</button>
+              <button class="next" onclick="location.href='http://localhost:18899/subject?id={{.ID}}'" type="button">再试一次</button>
           </div>
       {{end}}
       </div>
@@ -93,10 +93,10 @@
       <!-- 处理答题结果 end -->
     {{else}}
         <div class="img-wrapper">
-            <img src="http://localhost:8080/{{.Img}}" width="320px">
+            <img src="http://localhost:18899/{{.Img}}" width="320px">
         </div>
 
-        <form action="http://localhost:8080/subject" method="POST">
+        <form action="http://localhost:18899/subject" method="POST">
             <div class="options">
             {{range $key, $value := .Option}}
                 <label><input type="radio" name="key" value="{{$key}}">{{$value}}</label>

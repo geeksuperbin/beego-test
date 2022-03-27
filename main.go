@@ -18,6 +18,9 @@ func main() {
 	}
 	logs.Info("hello beego")
 	beego.Run()
+	// http://127.0.0.1:18899/subject
+
+
 
 }
 
