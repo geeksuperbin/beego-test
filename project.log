@@ -1,0 +1,105 @@
+0001/01/01 00:00:00.000  [M] [log.go:191]  [HTTP] http: superfluous response.WriteHeader call from github.com/beego/beego/v2/server/web/context.(*Response).WriteHeader (context.go:230)
+2022/03/27 20:15:45.395  [D] [router.go:955]  |      127.0.0.1|[97;42m 200 [0m|    559.539µs|   match|[97;44m GET     [0m /favicon.ico   r:/:id
+2022/03/27 20:15:47.084  [I] [main.go:19]  hello beego
+2022/03/27 20:15:47.378  [I] [parser.go:413]  generate router from comments
+2022/03/27 20:15:47.379  [I] [server.go:241]  http server Running on http://:8080
+2022/03/27 20:15:47.996  [I] [subject.go:22]  1
+2022/03/27 20:15:47.998  [D] [router.go:955]  |      127.0.0.1|[97;42m 200 [0m|   1.546525ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 20:18:50.590  [I] [main.go:19]  hello beego
+2022/03/27 20:18:50.846  [I] [parser.go:413]  generate router from comments
+2022/03/27 20:18:50.847  [I] [server.go:241]  http server Running on http://:8080
+2022/03/27 20:46:39.362  [I] [main.go:19]  hello beego
+2022/03/27 20:46:39.667  [I] [parser.go:413]  generate router from comments
+2022/03/27 20:46:39.668  [I] [server.go:241]  http server Running on http://:8080
+2022/03/27 20:47:02.120  [I] [main.go:19]  hello beego
+2022/03/27 20:47:02.395  [I] [parser.go:413]  generate router from comments
+2022/03/27 20:47:02.396  [I] [server.go:241]  http server Running on http://:8080
+2022/03/27 20:51:39.821  [I] [main.go:19]  hello beego
+2022/03/27 20:51:40.081  [I] [parser.go:413]  generate router from comments
+2022/03/27 20:51:40.082  [I] [server.go:241]  http server Running on http://:8080
+2022/03/27 20:56:02.957  [I] [subject.go:23]  0
+2022/03/27 20:56:02.959  [D] [router.go:955]  |      127.0.0.1|[97;42m 200 [0m|    1.76284ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 20:56:06.076  [D] [router.go:955]  |            ::1|[97;42m 201 [0m|   1.397308ms|   match|[97;46m POST    [0m /     r:/
+2022/03/27 20:56:09.555  [I] [subject.go:23]  0
+2022/03/27 20:56:09.556  [D] [router.go:955]  |      127.0.0.1|[97;42m 200 [0m|   1.205269ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 20:56:13.176  [D] [router.go:955]  |            ::1|[97;42m 201 [0m|    497.155µs|   match|[97;46m POST    [0m /     r:/
+2022/03/27 20:56:41.095  [I] [main.go:19]  hello beego
+2022/03/27 20:56:41.100  [I] [parser.go:85]  /Users/liubin/Music/develop/beego/hello/controllers no changed
+2022/03/27 20:56:41.100  [I] [server.go:241]  http server Running on http://:8080
+2022/03/27 20:56:42.759  [I] [subject.go:23]  0
+2022/03/27 20:56:42.761  [D] [router.go:955]  |      127.0.0.1|[97;42m 200 [0m|   1.716579ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 20:56:46.155  [I] [subject.go:23]  0
+2022/03/27 20:56:46.156  [D] [router.go:955]  |      127.0.0.1|[97;42m 200 [0m|   1.800791ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 20:56:50.233  [D] [router.go:955]  |            ::1|[97;42m 201 [0m|   2.581562ms|   match|[97;46m POST    [0m /     r:/
+2022/03/27 20:57:39.433  [I] [subject.go:23]  0
+2022/03/27 20:57:39.435  [D] [router.go:955]  |      127.0.0.1|[97;42m 200 [0m|    1.12529ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 20:57:39.459  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|    406.606µs| nomatch|[97;44m GET     [0m /subject/static/img/cut/yaoshen.webp
+2022/03/27 20:58:32.134  [I] [subject.go:23]  0
+2022/03/27 20:58:32.135  [D] [router.go:955]  |      127.0.0.1|[97;42m 200 [0m|   1.098692ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 20:58:32.158  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    261.499µs|   match|[97;44m GET     [0m //static/img/cut/yaoshen.webp
+2022/03/27 20:58:34.075  [I] [subject.go:61]  1
+2022/03/27 20:58:34.077  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.563558ms|   match|[97;46m POST    [0m /subject   r:/subject
+2022/03/27 20:58:34.146  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|    192.572µs| nomatch|[97;44m GET     [0m /static/img/o1.jpeg
+2022/03/27 20:58:34.148  [D] [router.go:955]  |            ::1|[90;47m 304 [0m|     328.76µs|   match|[97;44m GET     [0m /static/js/reload.min.js
+2022/03/27 20:58:34.616  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|    132.232µs| nomatch|[97;44m GET     [0m /static/img/guess.png
+2022/03/27 20:58:36.799  [I] [subject.go:23]  1
+2022/03/27 20:58:36.800  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.013311ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 20:58:36.821  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|     93.199µs|   match|[97;44m GET     [0m //static/img/cut/yaoshen.webp
+2022/03/27 20:58:49.405  [I] [subject.go:23]  1
+2022/03/27 20:58:49.407  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.357884ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 20:58:51.355  [I] [subject.go:61]  1
+2022/03/27 20:58:51.357  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.383959ms|   match|[97;46m POST    [0m /subject   r:/subject
+2022/03/27 20:58:51.386  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|    237.605µs| nomatch|[97;44m GET     [0m /img/o1.jpeg
+2022/03/27 20:58:52.705  [I] [subject.go:23]  1
+2022/03/27 20:58:52.706  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.046436ms|   match|[97;44m GET     [0m /subject/   r:/subject
+2022/03/27 20:59:37.459  [I] [subject.go:23]  1
+2022/03/27 20:59:37.460  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    1.01197ms|   match|[97;44m GET     [0m /subject/   r:/subject
+2022/03/27 20:59:39.243  [I] [subject.go:61]  1
+2022/03/27 20:59:39.245  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.367145ms|   match|[97;46m POST    [0m /subject   r:/subject
+2022/03/27 20:59:39.272  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|    151.886µs| nomatch|[97;44m GET     [0m /img/o1.jpeg
+2022/03/27 20:59:40.365  [I] [subject.go:23]  1
+2022/03/27 20:59:40.367  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.636844ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 20:59:53.942  [I] [main.go:19]  hello beego
+2022/03/27 20:59:53.948  [I] [parser.go:85]  /Users/liubin/Music/develop/beego/hello/controllers no changed
+2022/03/27 20:59:53.948  [I] [server.go:241]  http server Running on http://:8080
+2022/03/27 20:59:56.135  [I] [subject.go:23]  1
+2022/03/27 20:59:56.138  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   2.696454ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 20:59:59.288  [I] [subject.go:61]  1
+2022/03/27 20:59:59.289  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.354622ms|   match|[97;46m POST    [0m /subject   r:/subject
+2022/03/27 20:59:59.318  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|    695.115µs| nomatch|[97;44m GET     [0m /img/o1.jpeg
+2022/03/27 21:00:00.804  [I] [subject.go:23]  1
+2022/03/27 21:00:00.805  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.269064ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 21:00:20.536  [I] [subject.go:61]  1
+2022/03/27 21:00:20.537  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.294601ms|   match|[97;46m POST    [0m /subject   r:/subject
+2022/03/27 21:00:20.574  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    235.728µs|   match|[97;44m GET     [0m /static/img/o1.jpeg
+2022/03/27 21:00:21.622  [I] [subject.go:23]  1
+2022/03/27 21:00:21.623  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.119724ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 21:00:23.885  [I] [subject.go:61]  1
+2022/03/27 21:00:23.886  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.273945ms|   match|[97;46m POST    [0m /subject   r:/subject
+2022/03/27 21:00:25.132  [I] [subject.go:23]  1
+2022/03/27 21:00:25.133  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.529357ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 21:00:27.410  [I] [subject.go:61]  1
+2022/03/27 21:00:27.411  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.289267ms|   match|[97;46m POST    [0m /subject   r:/subject
+2022/03/27 21:00:27.438  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    378.797µs|   match|[97;44m GET     [0m /static/img/c1.jpeg
+2022/03/27 21:00:28.813  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|    166.797µs| nomatch|[97;44m GET     [0m /  
+2022/03/27 21:00:31.907  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|    113.931µs| nomatch|[97;44m GET     [0m /  
+2022/03/27 21:00:48.743  [D] [router.go:955]  |            ::1|[97;43m 404 [0m|    148.833µs| nomatch|[97;44m GET     [0m /  
+2022/03/27 21:00:53.867  [I] [subject.go:61]  1
+2022/03/27 21:00:53.868  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.355787ms|   match|[97;46m POST    [0m /subject   r:/subject
+2022/03/27 21:00:55.365  [I] [subject.go:23]  2
+2022/03/27 21:00:55.366  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.065409ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 21:00:55.389  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    797.522µs|   match|[97;44m GET     [0m //static/img/cut/bat.webp
+2022/03/27 21:00:58.580  [I] [subject.go:61]  2
+2022/03/27 21:00:58.581  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.167958ms|   match|[97;46m POST    [0m /subject   r:/subject
+2022/03/27 21:01:00.210  [I] [subject.go:23]  2
+2022/03/27 21:01:00.212  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.058979ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 21:01:02.873  [I] [subject.go:61]  2
+2022/03/27 21:01:02.875  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.310201ms|   match|[97;46m POST    [0m /subject   r:/subject
+2022/03/27 21:01:03.698  [I] [subject.go:23]  2
+2022/03/27 21:01:03.699  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    1.38201ms|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 21:01:05.018  [I] [subject.go:61]  2
+2022/03/27 21:01:05.019  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|   1.216513ms|   match|[97;46m POST    [0m /subject   r:/subject
+2022/03/27 21:01:06.049  [I] [subject.go:23]  3
+2022/03/27 21:01:06.049  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    486.491µs|   match|[97;44m GET     [0m /subject   r:/subject
+2022/03/27 21:01:14.265  [I] [subject.go:23]  0
+2022/03/27 21:01:14.266  [D] [router.go:955]  |            ::1|[97;42m 200 [0m|    997.857µs|   match|[97;44m GET     [0m /subject   r:/subject

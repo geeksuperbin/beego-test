@@ -1,10 +1,11 @@
 package routers
 
 import (
-	"hello/controllers"
 	beego "github.com/beego/beego/v2/server/web"
+	"hello/controllers"
 )
 
 func init() {
-    beego.Router("/", &controllers.MainController{})
+    beego.Router("/subject", &controllers.SubjectController{})
+	beego.Include(&controllers.UsersController{})
 }

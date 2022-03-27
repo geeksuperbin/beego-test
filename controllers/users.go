@@ -1,9 +1,9 @@
 package controllers
 
 import (
-	"Users/liubin/Music/develop/beego/hello/models"
 	"encoding/json"
 	"errors"
+	"hello/models"
 	"strconv"
 	"strings"
 
@@ -73,7 +73,7 @@ func (c *UsersController) GetOne() {
 // @Param	offset	query	string	false	"Start position of result set. Must be an integer"
 // @Success 200 {object} models.Users
 // @Failure 403
-// @router / [get]
+// @router /gogo [get]
 func (c *UsersController) GetAll() {
 	var fields []string
 	var sortby []string
